@@ -3,8 +3,6 @@
   --color2: #52339a;
 }
 
-header,
-footer,
 section {
   padding: 100px 0;
 }
@@ -111,7 +109,8 @@ footer {
 
 /* О курсе */
 .about,
-.shedule {
+.shedule,
+.buy {
   background-color: #eee;
 }
 
@@ -158,4 +157,9 @@ footer {
 .learning h5 {
   padding: 25px;
   border: 3px solid var(--color1);
+}
+
+/* FOOTER */
+footer {
+  padding: 30px 0;
 }
