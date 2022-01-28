@@ -71,8 +71,8 @@ footer {
 }
 
 .btn-itd:hover {
-  color: var(color2);
-  background-color: var(color1);
+  color: white;
+  background-color: var(--color1);
 }
 
 .embed-container {
@@ -135,4 +135,10 @@ footer {
   height: 3px;
   background-color: var(--color1);
   margin: 15px auto 30px;
+}
+
+/* Для кого курс */
+.forwhom h5 {
+  padding: 50px;
+  border: 3px solid var(--color1);
 }
